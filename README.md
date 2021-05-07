@@ -22,6 +22,8 @@ words from the auxiliary text file directly correspond to the input, i.e., words
 - [x] **fastText**    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Results for [Wikipedia Page](https://en.wikipedia.org/wiki/Literature)
+
+### The brackets show the Cosine Similarity Score  
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(315).png)    
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(318).png)    
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(317).png)    
