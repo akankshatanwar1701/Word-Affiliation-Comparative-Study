@@ -4,12 +4,10 @@
 
 Given an extensive auxiliary text file (could be web-scrapped from any website) which has been cleaned using regular expressions, we aim to   
 build an end-to-end framework, with the input from the user being a word or a set of words (word analogy relation task) and our goal to extract relevant 
-words from the auxiliary text file directly correspond to the input, i.e., words which are either synonyms or antonyms of the input or fit best  
-into the word analogy relation. Word analogy task can be explained by,   
-‘x is to y what w is to ________’. An example would be ‘red is to apple what yellow is to banana’.  
+words from the auxiliary text file directly correspond to the input, i.e., words which are either synonyms or antonyms of the input or fit best into the word analogy   relation. Word analogy task can be explained by, ‘x is to y what w is to ________’. **An example would be ‘red is to apple what yellow is to banana’.**    
 
 
-![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/word2vec.png)    
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/word2vec.png "Analogy")    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Word Embeddings Being Tested
@@ -36,11 +34,16 @@ provide a word for calculation of synonyms, antonyms of word analogy from the li
 the desired results.  
   
 
-![alt text](https://github.com/Anima108/My-Codes/blob/master/src/MVT%20Diagram%20(2).png "MVT")
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Workflow.png "Workflow")
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Web App:  
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Web%20App%20Interface.png "Interface")  
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Model View Template Diagram:  
 
-![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/MVT.png)  
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/MVT.png "MVT")  
   
 
 ----------------------------------------------------------------------
