@@ -21,6 +21,14 @@ words from the auxiliary text file directly correspond to the input, i.e., words
 - [x] **GloVe**    
 - [x] **fastText**    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Results for a Specific Wikipedia Page
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(315).png)    
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(318).png)    
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(317).png)    
+
+--------------------------------------------------------------------------------------------------------------------  
+## Environment & General Details
+
 | Feature | Value |  
 | -------------- | -------------- |  
 | Programming Language  | Python |  
