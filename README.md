@@ -45,7 +45,9 @@ We have experimented across word embeddings of word2vec, GloVe and fastText, we 
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Workflow.png "Workflow")
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Web App:  
+## Web App Interface:  
+
+## Finding the Synonyms of Read from a specific wikipedia webpage  
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Web%20App%20Interface.png "Interface")  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
