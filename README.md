@@ -13,7 +13,7 @@ words from the auxiliary text file directly correspond to the input, i.e., words
 ## Features
 - [x] **Synonyms on a Webpage according to input**     
 - [x] **Anotonyms on a Webpage according to input**    
-- [x] **Word Analogy Relation** 
+- [x] **Word Analogy Relation acc. to input words** 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Word Embeddings Being Tested
@@ -38,7 +38,9 @@ The whole project can be accessed in terms of a web application. The web applica
 The backend python code cleans the csv file provided by the user and stores the words thereby left in a list format. The user is asked to either  
 provide a word for calculation of synonyms, antonyms of word analogy from the list of words thus received above. A list is then output everytime containing  
 the desired results.  
-  
+
+We have measured the score of similarity using **cosine similarity.**  
+We have experimented across word embeddings of word2vec, GloVe and fastText, we would show a correspondence cosine similarity score depicting how similar or opposite the   extracted words are to the input word/phrase. We have achieved this task by using Transfer Learning in NLP.  
 
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Workflow.png "Workflow")
 
