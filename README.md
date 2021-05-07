@@ -17,7 +17,8 @@ into the word analogy relation. Word analogy task can be explained by,
 - [x] **GloVe**    
 - [x] **fastText**    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| ------------- | ------------- |  
+  
+   
 | Programming Language  | Python |  
 | Operating System | Windows 10 |
 | Library Packages | pickle, flask, numpy, pandas, gensim, sklearn.metrics.pairwise, re, nltk |  
