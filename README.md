@@ -21,7 +21,7 @@ words from the auxiliary text file directly correspond to the input, i.e., words
 - [x] **GloVe**    
 - [x] **fastText**    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Results for a Specific Wikipedia Page
+## Results for [Wikipedia Page](https://en.wikipedia.org/wiki/Literature)
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(315).png)    
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(318).png)    
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Screenshot%20(317).png)    
@@ -55,7 +55,7 @@ We have experimented across word embeddings of word2vec, GloVe and fastText, we 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Web App Interface:  
 
-## Finding the Synonyms of Read from a specific wikipedia webpage  
+## Finding the Synonyms of Read from [Wikipedia Page](https://en.wikipedia.org/wiki/Literature)  
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/Web%20App%20Interface.png "Interface")  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
