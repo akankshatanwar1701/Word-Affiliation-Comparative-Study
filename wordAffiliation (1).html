@@ -1,0 +1,180 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+ 		*{
+ 			margin:0;
+ 			padding:0; 
+ 		}
+ 		a:link, a:visited {
+         	background-color: #ff6347;
+         	color: white;
+         	padding: 10px 15px;
+         	margin:auto;
+         	text-align: center;
+         	text-decoration: none;
+         	display: inline-block;
+        }
+        a:hover, a:active {
+        	margin:auto;
+          	background-color: powderblue;
+        }
+ 		.regform{
+ 			width: 800px;
+ 			background-color: rgb(0,0,0,0.6);
+ 			margin:auto;
+ 			color: #FFFFFF;
+ 			padding: 10px 0px 10px 0px;
+ 			text-align: center;
+ 			border-radius: 15px 15px 0px 0px; 
+ 		}
+ 		.main{
+ 			background-color: rgb(0,0,0,0.5);
+ 			width: 800px;
+ 			margin:auto ;
+ 		}
+ 		form{
+ 			padding: 10px;
+ 		}
+ 		.name{
+ 			display: inline;
+ 			margin-left: 25px;
+ 			margin-top: 30px;
+ 			width:125px;
+ 			color:white;
+ 			font-size: 18px;
+ 			font-weight: 700; 
+ 		}
+ 		.amount{
+ 			position: center;
+ 			left: 200px;
+ 			top: -37px;
+ 			line-height: 40px;
+ 			border-radius: 6px;
+ 			padding: 0 22px;
+ 			font-size: 16px;
+ 		}
+ 		.option{
+ 			position: relative;
+ 			left: 200px;
+ 			top: -37px;
+ 			line-height: 40px;
+ 			width: 532px;
+ 			height: 40px;
+ 			border-radius: 6px;
+ 			padding: 0 22px;
+ 			font-size: 16px;
+ 			color: black;
+ 			outline:none;
+ 			overflow: hidden;
+ 		}
+ 		.option option{
+ 			font-size: 20px;
+ 		}
+ 		button{
+ 			background-color: #3BAF9F;
+ 			display: block;
+ 			margin: 20px 0px 0px 20px;
+ 			text-align: center;
+ 			border-radius: 12px;
+ 			border: 2px solid #366473;
+ 			padding: 14px 110px;
+ 			outline: none;
+ 			color: white;
+ 			cursor:pointer;
+ 			transition: 0.25px;
+ 		}
+ 		button:hover{
+ 			background-color:#5390F5;
+ 		}
+ 	</style>
+</head>
+<body style="background-image: url('https://thumbor.thedailymeal.com/SQS-StHyIFE-KGzZWq25yRggEq0=/1560x390/filters:format(webp)/https://www.theactivetimes.com/sites/default/files/2020/05/15/HERO_Wacky_Words_shutterstock.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+	<div class= "regform"><h1> Word Affiliation - An Attempt to Delve into Word Play</h1></div>
+	<div class="main">
+		<form action="/" method="POST" enctype="multipart/form-data">
+			<div id="name">
+ 				<h2 class="name">Upload a Webscraped CSV File for Cleaning</h2>
+ 				 <input class="amount" type="file" name="data_file" /><br>
+ 				<button type="submit">Clean</button>
+ 			    <p class ="result"></p>
+		</form>
+		<br><h3 style=" border:rgba(255, 99, 71, 0.5); border-width:5px; border-style:solid; color: white;"align="center"><b></b>{{output}}</b>
+ 	    </h3>
+ 	    <br>
+ 	    <form action="/synonyms" method="POST" >
+			<div id="name">
+ 				<h2 class="name">Find the Synonyms</h2>
+				<input class="amount" type="text" name="synonyms" ><br>
+ 				<h2 class="name">SELECT MODEL</h2>
+ 				<select class="amount" name="model">
+ 				<option disabled="disabled" selected="selected">--Choose option</option>
+ 				<option> Word2Vec</option>
+ 				<option> GloVe</option>
+ 				<option> FastText</option>
+ 				</select><br>
+
+ 				<button type="submit">Get Synonyms</button>
+ 			    <p class ="result"></p>
+		</form>
+	</div>
+		<br><h3 style="border:rgba(255, 99, 71, 0.5); border-width:5px; border-style:solid; color: white;"align="center"><b></b>{{synonyms}}</b>
+ 	    </h3>
+ 	    <br>
+ 	    <form action="/antonyms" method="POST" >
+			<div id="name">
+ 				<h2 class="name">Find the Antonyms</h2>
+ 				<input class="amount" type="text" name="antonyms" ><br>
+
+ 				<h2 class="name">SELECT MODEL</h2>
+ 				<select class="amount" name="model">
+ 				<option disabled="disabled" selected="selected">--Choose option</option>
+ 				<option> Word2Vec</option>
+ 				<option> GloVe</option>
+ 				<option> FastText</option>
+ 				</select><br>
+
+ 				<button type="submit">Get Antonyms</button>
+ 			    <p class ="result"></p>
+		</form>
+	</div>
+		<br><h3 style=" border:rgba(255, 99, 71, 0.5); border-width:5px; border-style:solid; color: white;"align="center"><b></b>{{antonyms}}</b>
+ 	    </h3>
+ 	    <br>
+
+ 	    <form action="/wordrelations" method="POST" >
+			<div id="name">
+ 				<h2 class="name">Word Relations</h2>
+ 				<h4 display: inline; style ="color: white;" >Enter three words in format of (w1 + w2 = w3 + ?) to get 4th word fitting in the same relationship</h4>
+ 				<input class="amount" type="text" name="word1"><br>
+ 				<h3 display: newline; style ="color: white;">+</h3>
+ 				<input class="amount" type="text" name="word2"><br>
+ 				<h3 display: newline; style ="color: white;">=</h3>
+ 				<input class="amount" type="text" name="word3"><br>
+ 				<h3 display: newline; style ="color: white;">+</h3>
+ 				<h3 display: newline; style ="color: white;">__________</h3>
+
+ 				<h2 class="name">Select Model</h2>
+ 				<select class="amount" name="model">
+ 				<option disabled="disabled" selected="selected">--Choose option</option>
+ 				<option> Word2Vec</option>
+ 				<option> GloVe</option>
+ 				<option> FastText</option>
+ 				</select><br>
+
+ 				<button type="submit">Find Word</button>
+ 			    <p class ="result"></p>
+		</form>
+	</div>
+		<br><h3 style="border:rgba(255, 99, 71, 0.5); border-width:5px; border-style:solid; color: white;"align="center"><b></b>{{word4}}</b>
+ 	    </h3>
+ 	    <br>
+	<p><a href="https://github.com/akankshatanwar1701/Word-Affiliation">Github</a></p>
+
+ 	<p><b><em style="color: white">Akanksha -- 2K18/IT/014</em></b></p>
+ 	<p><b><em style="color: white">Anima -- 2K18/IT/021</em></b></p>
+
+</body>
+</html>
