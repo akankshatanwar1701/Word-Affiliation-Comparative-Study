@@ -9,25 +9,14 @@ into the word analogy relation. Word analogy task can be explained by,
 ‘x is to y what w is to ________’. An example would be ‘red is to apple what yellow is to banana’.  
 
 
-![alt text]()    
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/word2vec.png)    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Word Embeddings Being Tested
 - [x] **word2vec**     
 - [x] **GloVe**    
 - [x] **fastText**    
-
-![alt text](https://github.com/Anima108/My-Codes/blob/master/src/Features.jpeg "Features")
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Environment and General Details:  
-**Algorithm**- Python  
-**Library used**- random  
-**Frontend**- HTML, CSS
-
-
-| Feature  | Value |  
 | ------------- | ------------- |  
 | Programming Language  | Python |  
 | Operating System | Windows 10 |
@@ -50,7 +39,7 @@ the desired results.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Model View Template Diagram:  
 
-![alt text](https://github.com/Anima108/My-Codes/blob/master/src/minimax2.png "MiniMax")  
+![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/MVT.png)  
   
 
 ----------------------------------------------------------------------
