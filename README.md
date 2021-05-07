@@ -10,6 +10,12 @@ words from the auxiliary text file directly correspond to the input, i.e., words
 ![alt text](https://github.com/akankshatanwar1701/Word-Affiliation-Comparative-Study/blob/main/assets/word2vec.png "Analogy")    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Features
+- [x] **Synonyms on a Webpage according to input**     
+- [x] **Anotonyms on a Webpage according to input**    
+- [x] **Word Analogy Relation** 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Word Embeddings Being Tested
 - [x] **word2vec**     
 - [x] **GloVe**    
